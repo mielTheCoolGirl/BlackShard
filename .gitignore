@@ -1,0 +1,116 @@
+############################################
+# BlackShard - C++ / Visual Studio .gitignore
+############################################
+
+# =====================
+# Build Results
+# =====================
+Debug/
+DebugPublic/
+Release/
+x64/
+x86/
+ARM/
+ARM64/
+build/
+out/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+
+# =====================
+# Visual Studio Files
+# =====================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# MSVC Intermediate Files
+*.obj
+*.iobj
+*.ipdb
+*.pdb
+*.ilk
+*.idb
+*.log
+*.tlog
+
+# Precompiled Headers
+*.pch
+
+# =====================
+# Executables & Libraries
+# =====================
+*.exe
+*.dll
+*.lib
+*.exp
+*.app
+
+# =====================
+# Static Analysis / Profiling
+# =====================
+*.lastbuildstate
+*.unsuccessfulbuild
+*.buildlog
+*.pgc
+*.pgd
+
+# =====================
+# Coverage / Testing
+# =====================
+*.gcda
+*.gcno
+*.gcov
+
+# =====================
+# Package Managers
+# =====================
+.vcpkg/
+packages/
+
+# =====================
+# OS Generated Files
+# =====================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS (just in case)
+.DS_Store
+
+# Linux (just in case)
+*~
+
+# =====================
+# Logs & Temp
+# =====================
+*.tmp
+*.temp
+*.log
+*.bak
+
+# =====================
+# Crypto / Sensitive Files
+# =====================
+# (important for BlackShard)
+*.key
+*.pem
+*.crt
+*.der
+*.pfx
+*.keystore
+
+# Optional: Ignore generated shards / test data
+shards/
+output/
+test_data/
