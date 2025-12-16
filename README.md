@@ -116,7 +116,7 @@ Instead of storing a file as a single encrypted object, it is broken into **smal
 
 ## 🧪 Project Roadmap
 
-### 🛠 WP1 — Proof of Concept
+### 🛠 WP1 - Proof of Concept
 - Basic sharding
 - Simple reconstruction
 - Central shard table
@@ -124,21 +124,21 @@ Instead of storing a file as a single encrypted object, it is broken into **smal
 
 ---
 
-### 🧬 WP2 — Poison Embedding
+### 🧬 WP2 - Poison Embedding
 - Per-shard poison bytes
 - Encrypted micro-tables
 - Automatic poison detection & removal
 
 ---
 
-### 🔐 WP3 — Full Encryption
+### 🔐 WP3 - Full Encryption
 - Hybrid encryption of shards
 - Encrypted poison maps
 - Secure key management
 
 ---
 
-### ⚛️ WP4 — Quantum-Ready Future
+### ⚛️ WP4 - Quantum-Ready Future
 - Research into:
   - Post-quantum cryptography
   - Quantum-safe key exchange
@@ -167,12 +167,12 @@ Instead of storing a file as a single encrypted object, it is broken into **smal
 
 ## 📜 License
 
-MIT License — use responsibly.
+MIT License - use responsibly.
 
 ---
 
 <div align="center">
 
-🖤 **BlackShard — Security through Fragmentation** 🖤
+🖤 **BlackShard - Security through Fragmentation** 🖤
 
 </div>
