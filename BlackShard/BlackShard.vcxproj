@@ -128,9 +128,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Assembler.h" />
+    <ClInclude Include="PosionMap.h" />
     <ClInclude Include="Seperator.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Assembler.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Seperator.cpp" />
   </ItemGroup>
